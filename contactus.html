@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/webcss.css">
+<link href="images/title.png" rel="icon">
+<style>
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  
+}
+
+.container {
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  padding: 20px;
+  width:40%;
+  position: absolute;
+  left: 50px;
+}
+</style>
+</head>
+<title>EAP FILM HALLS - Contact Us</title>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png"/>
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="films.html">Highest Rated Films</a></li>
+			<li><a href="screen.php">Films On Screen</a></li>
+            <li><a href="ticket.php">Ticket Bookings</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav><br><br><br><br><br><br>
+<div class="container">
+  <form action="contactus.php" method="POST">
+
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    <label for="lname">Email</label><br>
+    <input type="text" id="email" name="email" placeholder="Your Email..">
+    <br><label for="subject">Reason for Contact</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+    <input type="submit" value="Submit" name="submit">
+  </form>
+</div><br><br><br><br><br><br><br>
+<img src ="images\contact.png" alt="Contact Picture" width="700" height="300" align="right"><br><br><br><br><br><br><br><br><br><br><br>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer>
+     <p>EAP Film & Theaters pvt(Ltd)</p>
+     <p>Copyright Protected &#169</p>
+	 <p>Telephone : 071 4567878/011 7897895/011 5675679 </p>
+</footer>
+</body>
+</html>

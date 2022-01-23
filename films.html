@@ -1,0 +1,143 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/webcss.css">
+<link href="images/title.png" rel="icon">
+<style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<title>EAP FILM HALLS - Films</title>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png"/>
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="films.html">Highest Rated Films</a></li>
+			<li><a href="screen.php">Films On Screen</a></li>
+            <li><a href="ticket.php">Ticket Bookings</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav><br><br><br><br><br><br>
+<div class="film-heading">
+<h1>Fantastic Beasts: The Crimes of Grindelwald</h1>
+</div><br><br>
+<center>
+<iframe width="920" height="515" 
+src="https://www.youtube.com/embed/vvFybpmyB9E?mute=1">
+</iframe>
+</center>
+<h2 style="padding-left:10pt;">Plot :</h2>
+<p style="font-size:15pt; padding:10pt;">
+Gellert Grindelwald plans to raise an army of wizards to rule over non-magical beings. 
+In response, Newt Scamander's former professor, Albus Dumbledore, seeks his help to stop him.
+</p>
+
+<div class="film-heading">
+<h1>Avengers: Infinity War</h1>
+</div><br><br>
+<center>
+<iframe width="920" height="515" 
+src="https://www.youtube.com/embed/6ZfuNTqbHE8?mute=1">
+</iframe>
+</center>
+<h2 style="padding-left:10pt;">Plot :</h2>
+<p style="font-size:15pt; padding:10pt;">
+The Avengers must stop Thanos, an intergalactic warlord, from getting his hands on all the infinity stones. 
+However, Thanos is prepared to go to any lengths to carry out his insane plan.
+</p>
+
+<div class="film-heading">
+<h1>S/O Satyamurthy</h1>
+</div><br><br>
+<center>
+<iframe width="920" height="515" 
+src="https://www.youtube.com/embed/dpnENU952gc?mute=1">
+</iframe>
+</center>
+<h2 style="padding-left:10pt;">Plot :</h2>
+<p style="font-size:15pt; padding:10pt;">
+After the death of his billionaire father, a young man awakens to the harsh reality of his fortune. To complicate 
+matters further, he falls in love with a hardened creditor's daughter.
+</p>
+
+<div class="film-heading">
+<h1>Venom</h1>
+</div><br><br>
+<center>
+<iframe width="920" height="515" 
+src="https://www.youtube.com/embed/xLCn88bfW1o?mute=1">
+</iframe>
+</center>
+<h2 style="padding-left:10pt;">Plot :</h2>
+<p style="font-size:15pt; padding:10pt;">
+While trying to take down Carlton, the CEO of Life Foundation, Eddie, a journalist, investigates experiments of human trials. 
+Unwittingly, he gets merged with a symbiotic alien with lethal abilities.
+</p>
+
+<div class="film-heading">
+<h1>Now You See Me 2</h1>
+</div><br><br>
+<center>
+<iframe width="920" height="515" 
+src="https://www.youtube.com/embed/b306jk-C5rE?mute=1">
+</iframe>
+</center>
+<h2 style="padding-left:10pt;">Plot :</h2>
+<p style="font-size:15pt; padding:10pt;">
+The Four Horsemen, a group of illusionists, find themselves in Macau, China, planning to pull off a heist on the orders of a devious tech genius.
+</p>
+
+ <script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<footer>
+     <p>EAP Film & Theaters pvt(Ltd)</p>
+     <p>Copyright Protected &#169</p>
+	 <p>Telephone : 071 4567878/011 7897895/011 5675679 </p>
+</footer>
+</body>
+</html>
